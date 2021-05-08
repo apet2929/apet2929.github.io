@@ -12,11 +12,13 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50vh 33vh 50vh;
     max-width: 100%;
     padding: 10px;
+    margin-top: 2%;
     gap: 10px; 
     /* background-color: #E24767; */
-    min-height: 500px;
+    min-height: 100vh;
 }
 
 .grid-item {
@@ -38,8 +40,7 @@ body {
     align-items: center;
 }
 .memory-button {
-    margin-top: 1%;
-
+    margin-top: 2%;
     text-align: center;
     width: 70%;
     min-height: 10vh;
